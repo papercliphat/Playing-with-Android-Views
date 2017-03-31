@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Robosto</string>
+
+    <!--activities-->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_browse">Browse</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_reorder">Reorder Co-ops</string>
+    <string name="title_activity_change">Change Is Coming</string>
+
+    <!--action bar icons -->
+    <string name="action_person">Profile</string>
+    <string name="action_browse">Browse</string>
+
+    <!--other icons -->
+    <string name="action_settings">Settings</string>
+
+    <!--buttons -->
+    <string name="button_post">Post</string>
+    <string name="button_join">Join</string>
+    <string name="button_history">Username</string>
+    <string name="button_reorder">Reorder Clubs</string>
+    <string name="button_account_information">Change Email or Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_logout">Logout</string>
+    <string name="button_create_account">Create Account</string>
+    <string name="button_forgot_password">Forgot Password</string>
+    <string name="button_change_password">Change Password</string>
+    <string name="button_change_email">Change Email</string>
+    <string name="button_go_back">No wait&#8230;\n go back</string>
+
+
+    <!--input edit text -->
+    <string name="input_username">Username</string>
+    <string name="input_password">Password</string>
+    <string name="input_new_password">New Password</string>
+    <string name="input_email">Email</string>
+    <string name="input_new_email">New Email</string>
+
+    <!--alive app text-->
+    <string name="logout_joke">Sorry you have to go, \n but hope you\'ll come back soon&#8230;</string>
+
+    <!--sliders -->
+    <string name="slider_sound">Notification Sound</string>
+    <string name="slider_notification">Notifications</string>
+
+    <!--spinners -->
+    <string-array name="spinner">
+        <item>Best</item>
+        <item>Climbing</item>
+        <item>New</item>
+        <item>All-Star</item>
+        <item>Moderated</item>
+    </string-array>
+
+    <string-array name="spinner_history">
+        <item>Best</item>
+        <item>Recent</item>
+        <item>Posts only</item>
+        <item>Comments only</item>
+    </string-array>
+
+
+    <!--Unused strings-->
+    <!--text -->
+
+    <string name="hello_world">Hello world!</string>
+    <string name="text_points">Points</string>
+    <string name="text_logout">Logout?</string>
+
+    <string name="button_submit">Submit</string>
+    <string name="button_recover_account">Recover Account</string>
+
+    <string name="input_reenter_password">Re-enter New Password</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+         fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+         culpa qui officia deserunt mollit anim id est laborum
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+         fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+         culpa qui officia deserunt mollit anim id est laborum
+    </string>
+
+
+
+    <string name="title_activity_recovery">RecoveryActivity</string>
+    <string name="title_activity_pic">PicActivity</string>
+
+    <string name="title_activity_post">PostActivity</string>
+    <string name="title_activity_detailed_view">DetailedViewActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_blank">BlankActivity</string>
+
+    <string name="input_email_token">Email Token</string>
+    <string name="button_search">Search</string>
+
+    <string name="tab_2">TAB 2</string>
+    <string name="tab_1">TAB 1</string>
+
+
+</resources>

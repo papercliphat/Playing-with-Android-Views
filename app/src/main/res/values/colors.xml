@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--colors-->
+    <color name="colorPrimary">#66a3ff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#999999</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="windowBackground">#ffffff</color>
+    <color name="navigationBarColor">#303f9f</color>
+
+    <!--app specific colors-->
+    <color name="colorBelowTab">#d1e3ff</color>
+    <color name="colorButtonLine">#999999</color>
+
+    <!--unused colors-->
+
+    <color name="colorTabFragmentBackground">#66a3ff</color>
+    <color name="colorActionBarBackground">#000000</color>
+    <color name="colorABlueILiked">#3366ff</color>
+    <color name="colorformerTabcolor">#a4baff</color>
+
+</resources>

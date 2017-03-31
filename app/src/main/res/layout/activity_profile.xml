@@ -1,0 +1,142 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.robosto.robosto.ProfileActivity"
+    android:id="@+id/profile">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <!-- Username Button -->
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/button_history"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goHistory"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorButtonLine" />
+
+        <!-- Reorder Clubs Button -->
+        <Button
+            android:id="@+id/button_reorder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/button_reorder"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goReorder"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorButtonLine" />
+
+        <!-- No Notification Noise Switch -->
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/slider_sound"
+            android:checked="false"
+            android:layout_gravity="start" />
+
+        <!-- No Notifications Switch -->
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/slider_notification"
+            android:checked="true"
+            android:layout_gravity="start"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorButtonLine" />
+
+        <!-- No Notifications Switch -->
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/button_account_information"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goChange"
+            android:id="@+id/button_change_pass_email"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/button_login"
+                android:onClick="goLogin"
+                android:id="@+id/button_login"
+                android:layout_weight="1"/>
+
+            <View
+                android:id="@+id/vertical"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/colorButtonLine"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/button_logout"
+                android:id="@+id/dialog_logout"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

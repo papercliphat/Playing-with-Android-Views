@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="RobostoTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <!--<item name="android:colorControlActivated">#ffffff</item>
+        <item name="android:colorControlNormal">#ffffff</item>
+        <item name="android:colorControlHighlight">#ffffff</item>
+
+        only works api 21 and above
+
+        also want to strictly define colors for app bar etc-->
+
+    </style>
+
+    <style name="RobostoTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Colors the tabs on sliding tab page (both this and RobostoTheme.PopupOverlay are required) -->
+    <style name="RobostoTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+    <!-- Colors the action bar on the sliding tab page -->
+    <style name="RobostoTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+
+    <!-- Modifies logout popup -->
+    <style name="RobostoTheme.PopupTheme" >
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+    </style>
+
+    <!--used in popup logout-->
+    <style name="ExtraLarge">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+</resources>
+
